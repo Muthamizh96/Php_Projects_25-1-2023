@@ -1,0 +1,167 @@
+body
+{
+    background-color: rgba(25, 0, 255, 0.507);  
+}
+hr
+{
+    background-color: rgba(255, 0, 0, 0.692);
+    height: 5px;
+    border-radius: 15px;
+}
+#dob
+{
+    width:150px
+}
+#phead
+{
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(255, 255, 255);
+    font-size: 40px;
+}
+.perlabel,.kyclabel,.comlabel,.peralabel,.comalabel,.empllabel
+{
+    display: inline;
+    margin-left: 10px;
+    font-size: 21px;
+}
+.perlabel::after,.kyclabel::after,.comlabel::after,.peralabel::after,.comalabel::after,.empllabel::after
+{
+    content: "*";   
+    color: red;
+    font-size: 25px;
+}
+.perinput,.kycinput,.cominput,.perainput,.comainput,.emplinput
+{
+    display:inline;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-style: none;
+    background-color: tan;
+    font-weight: bold;
+}
+.perinput:hover,.kycinput:hover,.cominput:hover,.perainput:hover,.comainput:hover,.emplinput:hover
+{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    color: rgb(5, 5, 5);
+}
+#perdiv,#kycdiv,#comdiv,#peradddiv,#comadddiv,#empldiv
+{
+    margin-left: 200px;
+    width: 1000px;
+}
+#age
+{
+    width: 40px;
+}
+#lname1
+{
+    margin-left:8px;
+}
+#fname
+{
+    margin-left: 27px;
+}
+#lname
+{
+    margin-left: 20px;
+}
+#head1,#head2,#head3,#head4,#head5,#head6
+{
+    text-decoration:underline;
+    color: darkred;
+    font-style: italic;
+    font-size: 23px;
+    text-align: center;
+}
+#faid
+{
+    margin-left: 50px;
+}
+#bname
+{
+    margin-left: 18px;
+}
+#pan
+{
+    margin-left: 32px;
+}
+#ifcode
+{
+    margin-left: 55px;
+}
+#maid
+{
+    margin-left: 60px;
+    width: 350px;
+}
+#dis,#dit1
+{
+    margin-left: 54px;
+}
+#village,#post
+{
+    margin-left: 80px;
+}
+#country,#country11
+{
+    margin-left: 50px;
+}
+#stn,#stn1
+{
+    margin-left: 20px;
+}
+#state,#stat1
+{
+    margin-left: 114px;
+}
+#pincode,#pincode111
+{
+    margin-left: 75px;
+}
+#cur
+{
+    width: 500px;
+}
+#emp
+{
+    margin-left: 30px;
+}
+#ccity
+{
+    margin-left: 20px;
+}
+#ctc
+{
+    margin-left: 100px;
+}
+#eim
+{
+    margin-left: 45px;
+}
+#lare
+{
+    margin-left: 22px;
+}
+#submit
+{
+    margin-left: 1000px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(8, 12, 255, 0.795);
+    color: white;
+}
+#submit:hover
+{
+    background-color: rgba(235, 20, 20, 0.74);
+    color: rgb(255, 255, 255);
+}
+input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+}
